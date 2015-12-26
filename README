@@ -1,2 +1,11 @@
 simple go hello world
 using hello.go
+
+Looking into vim ide setups to use... found this link by Victor Farazdagi
+http://farazdagi.com/blog/2015/vim-as-golang-ide/
+
+Pretty nice if you have a bare bones vim setup. It quickly adds some useful plugins and you can open straight into the runtime
+env by simply typing "vim -u ~/.vimrc.go". Also this keeps your own ~/.vimrc intact.
+
+
+
