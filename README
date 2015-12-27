@@ -7,5 +7,7 @@ http://farazdagi.com/blog/2015/vim-as-golang-ide/
 Pretty nice if you have a bare bones vim setup. It quickly adds some useful plugins and you can open straight into the runtime
 env by simply typing "vim -u ~/.vimrc.go". Also this keeps your own ~/.vimrc intact.
 
+Missing LUA support on my vim7.4 so needed some extra hoops to jump through... basically a full install and build of vim source 
+http://winter233.com/Using-Vim-with-Neocomplete/
 
-
+needed to add "set t_Co=256" in ~/.vim_go_runtime/custom_config.vim... i think this is where you do your usual vimrc settings etc
